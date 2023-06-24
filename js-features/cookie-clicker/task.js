@@ -1,5 +1,5 @@
 let image = document.getElementById("cookie");
-let counter = document.getElementById("Clicker__counter");
+let counter = document.getElementById("clicker__counter");
 image.onclick = function () {
   const clicksCounter = +counter.textContent;
 

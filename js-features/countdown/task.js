@@ -8,8 +8,8 @@ function countDown () {
     seconds = seconds < 10 ? "0" + seconds : seconds;
     minutes = minutes < 10 ? "0" + minutes : minutes;
     hours = hours < 10 ? "0" + hours : hours;
-    timer.innerHTML = hours + ":" + minutes + ":" + seconds + ":";
-    if (seconds = 0 && minutes = 0 && hours = 0) {
+    timer.innerHTML = hours + ":" + minutes + ":" + seconds;
+    if (seconds == 0 && minutes == 0 && hours == 0) {
         clearTimeout(countDown);
         alert("Вы победили в конкурсе");
     } else {
