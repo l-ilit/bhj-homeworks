@@ -5,8 +5,8 @@ image.onclick = function () {
   counter.textContent++;
 
   if (clicksCounter % 2) {
-    image.width = 250;
-  } else {
     image.width = 200;
+  } else {
+    image.width = 250;
   }
 }

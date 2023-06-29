@@ -23,6 +23,8 @@ let gameFunction = function () {
                 lostCounter = 0;
                 stop();
             }
+            dead.textContent = deadCounter;
+            lost.textContent = lostCounter;
         }
     }
 }
