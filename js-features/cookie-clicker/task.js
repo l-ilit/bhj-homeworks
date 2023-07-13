@@ -10,3 +10,4 @@ image.onclick = function () {
     image.width = 250;
   }
 }
+
