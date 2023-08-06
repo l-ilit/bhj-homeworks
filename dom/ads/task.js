@@ -1,4 +1,4 @@
-const rotatorCase = Array.from(document.querySelector('.rotator__case_active'));
+const rotatorCase = Array.from(document.querySelectorAll('.rotator__case'));
 let index = 0;
 setInterval(() => {
     rotatorCase.forEach(element => {
