@@ -11,7 +11,7 @@ fontBtn.forEach((element) => {
         
         let size = element.dataset.size;
         if (size) {
-            book.classList.add('book_fs- + size');
+            book.classList.add(`book_fs- ${size}`);
         } else {
             element.classList.add('font-size_active');
         }
