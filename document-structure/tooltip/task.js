@@ -7,5 +7,7 @@ links.forEach((link,index) => {
         const tooltip = document.querySelector('.tooltip');
         tooltip.textContent = link.title;
         tooltip.classList.toggle('tooltip_active');
+        tooltip.style.top = links[index].getBoundingClientRect().bottom + 'px';
+        tooltip.style.left = links[index].getBoundingClientRect().left + 'px';
     })
 })
