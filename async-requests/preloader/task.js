@@ -1,5 +1,5 @@
-const loader = document.getElementbyId('loader');
-const items = document.getElementbyId('items');
+const loader = document.getElementById('loader');
+const items = document.getElementById('items');
 
 let xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://students.netoservices.ru/nestjs-backend/slow-get-courses');
